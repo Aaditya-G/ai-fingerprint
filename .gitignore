@@ -1,0 +1,9 @@
+/__pycahce__/
+/__pycahce__
+*/__pycahce__/
+/__pycahce__/*
+*.txt
+/logs/
+/output/
+/venv/
+*/.pyc
