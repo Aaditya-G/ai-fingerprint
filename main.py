@@ -2,86 +2,105 @@ import traceback
 import gradio as gr
 from functions.conversations import extract_response_bodies
 from functions.url import extract_and_map_urls
-
-applications = {
-    "github_copilot": r"githubcopilot",
-    "grammarly": r"grammarly",
-    "leena": r"leena",
-    "microsoft_copilot": r"copilot",
-    "multion": r"multion",
-    "notion": r"notion",
-    "postman": r"postman"
-}
-
-llm_mapping = {
-    "github_copilot": "GPT-3.5",
-    "microsoft_copilot": "GPT-3.5",
-    "grammarly": "GPT-3.5",
-    "leena": "GPT-3.5",
-    "multion": "GPT-3.5",
-    "notion": "GPT-3.5",
-    "postman": "GPT-3.5"
-}
+from static_data import applications, llm_mapping, risk_ratings
 
 def process_log_file(file_obj):
     try:
         if file_obj is None:
-            return "No file uploaded", "Please upload a file first."
+            return "No file uploaded", "Please upload a file first.", []
 
         file_content = file_obj.decode('utf-8')
         request_urls, matched_apps = extract_and_map_urls(file_content, applications)
         
         if matched_apps:
             first_app = next(iter(matched_apps))
-            llm_detected = llm_mapping.get(first_app, "No LLM detected")
+            llm_detected = f'LLM Detected : {llm_mapping.get(first_app, "No LLM detected")}'
             conversations = extract_response_bodies(file_content, first_app)
+            risk_details = risk_ratings.get(llm_mapping.get(first_app).lower(), None)
+            if risk_details:
+                # Convert risk_details directly to list of lists for DataFrame
+                risk_output = [[key, value] for key, value in risk_details.items()]
+            else:
+                risk_output = [["No Data", f"No specific risk rating available for {llm_detected}"]]
         else:
-            llm_detected = "No LLM detected"
+            llm_detected = "Sorry, We do not support this application currently"
             conversations = ["No responses found"]
+            risk_output = [["Status", "Risk Rating not available"]]
 
         urls_output = "Request URLs:\n" + "\n".join(request_urls) if request_urls else "No URLs found"
         detailed_output = f"{urls_output}\n\nConversations:\n{str(conversations)}"
         
-        return llm_detected, detailed_output
+        return llm_detected, detailed_output, risk_output
 
     except Exception as e:
         traceback.print_exc()
-        return f"Error: {str(e)}", f"Analysis failed. Error details: {str(e)}"
+        return f"Error: {str(e)}", f"Analysis failed. Error details: {str(e)}", [["Error", str(e)]]
 
-with gr.Blocks(theme=gr.themes.Default()) as app:
-    gr.Markdown("# Dynamic Fingerpritning on Logs")
-    
-    with gr.Row():
-        with gr.Column(scale=1):
-            file_input = gr.File(
-                label="Upload Log File",
-                file_types=[".txt", ".log"],
-                type="binary"
-            )
-            
-            llm_detection = gr.Markdown(
-                value="LLM Detection Status",
-                label="Detection Result"
-            )
-            
-            upload_button = gr.Button(
-                value="Analyze File",
-                variant="primary"
-            )
+def create_interface():
+    with gr.Blocks(theme=gr.themes.Base(
+        primary_hue="blue",
+        secondary_hue="slate",
+        neutral_hue="slate",
+    )) as app:
+        gr.Markdown(
+            """
+            # Dynamic Fingerprinting on Logs
+            Upload your log file for analysis and LLM detection
+            """
+        )
         
-        with gr.Column(scale=1):
-            analysis_output = gr.Textbox(
-                label="Detailed Analysis",
-                lines=20,
-                max_lines=30,
-                show_copy_button=True
-            )
+        with gr.Row():
+            with gr.Column(scale=1):
+                # Left column
+                file_input = gr.File(
+                    label="Upload Log File",
+                    file_types=[".txt", ".log"],
+                    type="binary"
+                )
+                
+                # LLM Detection section
+                with gr.Group(visible=True):
+                    gr.Markdown("### 🔍 LLM Detection Results")
+                    llm_detection = gr.Markdown(
+                        value="Awaiting file upload...",
+                        elem_classes="llm-detection"
+                    )
+                
+                upload_button = gr.Button(
+                    value="🔍 Analyze File",
+                    variant="primary",
+                    size="lg"
+                )
+                
+                # Risk Rating section
+                with gr.Group(visible=True):
+                    gr.Markdown("### 📊 Risk Assessment")
+                    risk_rating_output = gr.Dataframe(
+                        headers=["Category", "Rating"],
+                        datatype=["str", "str"],
+                        wrap=True,
+                        value=[["Awaiting", "file upload..."]]
+                    )
+            
+            with gr.Column(scale=1):
+                # Right column
+                with gr.Group(visible=True):
+                    gr.Markdown("### 📝 Detailed Analysis")
+                    analysis_output = gr.Textbox(
+                        label="Analysis Results",
+                        lines=25,
+                        max_lines=30,
+                        show_copy_button=True
+                    )
 
-    upload_button.click(
-        fn=process_log_file,
-        inputs=[file_input],
-        outputs=[llm_detection, analysis_output]
-    )
+        upload_button.click(
+            fn=process_log_file,
+            inputs=[file_input],
+            outputs=[llm_detection, analysis_output, risk_rating_output]
+        )
+
+    return app
 
 if __name__ == "__main__":
+    app = create_interface()
     app.launch(share=True, debug=True)
