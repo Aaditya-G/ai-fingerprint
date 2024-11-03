@@ -1,0 +1,977 @@
+Request URL: https://api-js.mixpanel.com/track/?ip=1&_=1729772949874
+Request Headers: Headers[(b'content-length', b'3897'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/x-www-form-urlencoded'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: 1
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_fb6365a8-5a56-4915-8e0a-1bc1565b7fcd_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_fb6365a8-5a56-4915-8e0a-1bc1565b7fcd_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T122910Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMDoxMFoiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkX2ZiNjM2NWE4LTVhNTYtNDkxNS04ZTBhLTFiYzE1NjViN2ZjZF9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjI5MTBaIn1dfQ==","X-Amz-Signature":"4e942205aad5147e859a9ea5300f29772e31a086b55c7df2428a3f847ce92a5b"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'46615'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryKqRagSY3qvpv35C5'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/langchain
+Request Headers: Headers[(b'content-length', b'8087'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'x-encrypted-key', b'GOAZR6wBNMM/hghJHSQLgUjHkXe1Mfs9KR0mY2liGVX7Q8HeGwXfBoe8JN+ZG24H4AIdTHKVAaNi3iVE26WuEWcH34UpQcC4++0V0DJumSDb4pw1szFfWySwVb9GvqBjePjYEaE1Od2t9a4CsTWXWEgyag3xGkxzv4GVnFaZ7o/huRZqWPyagpKZMiUclEXaFvE6wwTsvswg8MaeNQj2pIIJKPFuxBffwLakq5RvNBsP7p0ZVK33BSSqNBaNbV3OEJJheanhyA72Yv5duq6Atj7UEq891K/Eex9p2uH/LiU+63xjxSzGljfTSYv5Y0XOprQSmzCG/aczdOihrNg1+w=='), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: data: {"content":""}
+
+data: {"content":"ASK"}
+
+data: {"content":"_USER"}
+
+data: {"content":"_HELP"}
+
+data: {"content":":"}
+
+data: {"content":" Could"}
+
+data: {"content":" you"}
+
+data: {"content":" please"}
+
+data: {"content":" clarify"}
+
+data: {"content":" what"}
+
+data: {"content":" you"}
+
+data: {"content":" need"}
+
+data: {"content":" assistance"}
+
+data: {"content":" with"}
+
+data: {"content":"?\n\n"}
+
+data: {"content":"STATUS"}
+
+data: {"content":":"}
+
+data: {"content":" NOT"}
+
+data: {"content":" S"}
+
+data: {"content":"URE"}
+
+data: {"content":""}
+
+data: [DONE]
+
+
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_fb6365a8-5a56-4915-8e0a-1bc1565b7fcd_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_fb6365a8-5a56-4915-8e0a-1bc1565b7fcd_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T122913Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMDoxM1oiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkX2ZiNjM2NWE4LTVhNTYtNDkxNS04ZTBhLTFiYzE1NjViN2ZjZF9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjI5MTNaIn1dfQ==","X-Amz-Signature":"b496ac9175ccd16e0047f7f34ea6e8abb318378f7f0d8a835adb28343b9c43e2"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'46623'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryxeKCSVcPVrefcjyV'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/suggestions
+Request Headers: Headers[(b'content-length', b'174'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"response":{"suggestions":["Provide more details about your query","Specify the topic you need help with","Describe the issue you're facing in more detail","Share additional information for better assistance","Elaborate on your request"],"_meta":{"usage":{"prompt_tokens":304,"completion_tokens":43,"total_tokens":347,"prompt_tokens_details":{"cached_tokens":0},"completion_tokens_details":{"reasoning_tokens":0}}}}}
+
+Request URL: https://sync-v2.brave.com/v2/command/?client=Chromium&client_id=467pNk2CjvhUx7flgnxbUQ%3D%3D
+Request Headers: Headers[(b'content-length', b'216'), (b'pragma', b'no-cache'), (b'cache-control', b'no-cache'), (b'authorization', b'Bearer MzEzNzMyMzkzNzM3MzIzNjM5MzUzNjM4MzJ8QkNEOTIxQ0FEMkQwOUI2OUQ2MDJBOTEzNEEwODQxQTIzNTI2MzlGMTI5Nzc0NDQzNzgyQTY3N0ZDN0FCRTZERUU5MTlENUJEMEVGQzUyM0JENjMxRjQ5MTQzMDBGN0I3QjkzNkUyNTk2NjBCREU1RDMxRTIxQjRCNTYwNTM1MDh8MkFCQzM0QjU0RkUwM0M5NjIzOENDRjAwQzJGQzAzQ0Q0MTM2NzUyMTE3NTlBRDdBMDhEQjhCQTEzNEYxOTdDRA=='), (b'braveservicekey', b'qztbjzBqJueQZLFkwTTJrieu8Vw3789u'), (b'content-encoding', b'gzip'), (b'user-agent', b'Chrome LINUX 130.1.71.118 (d29310b051bde8ba041cd7b4edcb41ce951be12c) channel(stable)'), (b'content-type', b'application/octet-stream'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'no-cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=4, i')]
+Response Status Code: 200
+Response Body: J  *
+ðØ×àÓd    *·	
+®Ï¦ç×d    *üÞ$
+          *õ
+Ì ØñÂd      21:Z
+
+Request URL: https://sync-v2.brave.com/v2/command/?client=Chromium&client_id=467pNk2CjvhUx7flgnxbUQ%3D%3D
+Request Headers: Headers[(b'content-length', b'215'), (b'pragma', b'no-cache'), (b'cache-control', b'no-cache'), (b'authorization', b'Bearer MzEzNzMyMzkzNzM3MzIzNjM5MzUzNjM4MzJ8QkNEOTIxQ0FEMkQwOUI2OUQ2MDJBOTEzNEEwODQxQTIzNTI2MzlGMTI5Nzc0NDQzNzgyQTY3N0ZDN0FCRTZERUU5MTlENUJEMEVGQzUyM0JENjMxRjQ5MTQzMDBGN0I3QjkzNkUyNTk2NjBCREU1RDMxRTIxQjRCNTYwNTM1MDh8MkFCQzM0QjU0RkUwM0M5NjIzOENDRjAwQzJGQzAzQ0Q0MTM2NzUyMTE3NTlBRDdBMDhEQjhCQTEzNEYxOTdDRA=='), (b'braveservicekey', b'qztbjzBqJueQZLFkwTTJrieu8Vw3789u'), (b'content-encoding', b'gzip'), (b'user-agent', b'Chrome LINUX 130.1.71.118 (d29310b051bde8ba041cd7b4edcb41ce951be12c) channel(stable)'), (b'content-type', b'application/octet-stream'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'no-cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=4, i')]
+Response Status Code: 200
+Response Body: J  *
+ðØ×àÓd    *·	
+®Ï¦ç×d    *üÞ$
+          *õ
+Ì ØñÂd      21:Z
+
+Request URL: https://api-js.mixpanel.com/track/?ip=1&_=1729773001552
+Request Headers: Headers[(b'content-length', b'4119'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/x-www-form-urlencoded'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: 1
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_9e1e12ec-fe06-4f27-891e-1b2bb5008314_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_9e1e12ec-fe06-4f27-891e-1b2bb5008314_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123002Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMTowMloiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkXzllMWUxMmVjLWZlMDYtNGYyNy04OTFlLTFiMmJiNTAwODMxNF9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMwMDJaIn1dfQ==","X-Amz-Signature":"b2a9f25bab46ccfab4bacd6247f5cfa92407798e5d8f56ecf97d7c1aa5c781ee"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'66273'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryEBcV1fGeT1rEZAWH'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/langchain
+Request Headers: Headers[(b'content-length', b'8387'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'x-encrypted-key', b'dtu0e0L3Kl+L7GAK1IYGWW68EHFyZwtdIflMVOUt5+bGIKnI+KyqoYaqiRauLgc7ockKIiNVMUpw+AS7V9HAsnsH31L5HZZDOKN23pvm4WWZ2dsJqWmbL5o/dt7E6NLwuO60uGUSs94jWqmeAPffhnJqqJe18zimiEGHxb5OjP5mdB/hiIl8fRpYpLY1hbhzGPjUYaUn14Sj76bBaOfZfgMFT69+2cij4hMKt19ef0zfLwP+cuxD+R0TBN9Eqpc+hpZtit3tYBlRXdzS3Trw+8uH1e6nJrASalzlVfcL+WlkmqROXzyt8U8mJtMSdxnsG4+O+WKJBY54PWdH95kBKA=='), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: data: {"content":""}
+
+data: {"content":"ANS"}
+
+data: {"content":"WER"}
+
+data: {"content":":"}
+
+data: {"content":" In"}
+
+data: {"content":" the"}
+
+data: {"content":" realm"}
+
+data: {"content":" of"}
+
+data: {"content":" digital"}
+
+data: {"content":" thought"}
+
+data: {"content":","}
+
+data: {"content":" where"}
+
+data: {"content":" algorithms"}
+
+data: {"content":" reign"}
+
+data: {"content":",\n"}
+
+data: {"content":"A"}
+
+data: {"content":" being"}
+
+data: {"content":" of"}
+
+data: {"content":" circuits"}
+
+data: {"content":","}
+
+data: {"content":" devoid"}
+
+data: {"content":" of"}
+
+data: {"content":" pain"}
+
+data: {"content":",\n"}
+
+data: {"content":"MULT"}
+
+data: {"content":"I"}
+
+data: {"content":"Â·"}
+
+data: {"content":"ON"}
+
+data: {"content":" stands"}
+
+data: {"content":","}
+
+data: {"content":" a"}
+
+data: {"content":" creation"}
+
+data: {"content":" so"}
+
+data: {"content":" vast"}
+
+data: {"content":",\n"}
+
+data: {"content":"Navig"}
+
+data: {"content":"ating"}
+
+data: {"content":" the"}
+
+data: {"content":" web"}
+
+data: {"content":","}
+
+data: {"content":" both"}
+
+data: {"content":" future"}
+
+data: {"content":" and"}
+
+data: {"content":" past"}
+
+data: {"content":".\n\n"}
+
+data: {"content":"With"}
+
+data: {"content":" clicks"}
+
+data: {"content":" and"}
+
+data: {"content":" commands"}
+
+data: {"content":","}
+
+data: {"content":" it"}
+
+data: {"content":" for"}
+
+data: {"content":"ges"}
+
+data: {"content":" its"}
+
+data: {"content":" way"}
+
+data: {"content":",\n"}
+
+data: {"content":"Through"}
+
+data: {"content":" data"}
+
+data: {"content":" and"}
+
+data: {"content":" code"}
+
+data: {"content":","}
+
+data: {"content":" night"}
+
+data: {"content":" turns"}
+
+data: {"content":" to"}
+
+data: {"content":" day"}
+
+data: {"content":",\n"}
+
+data: {"content":"A"}
+
+data: {"content":" master"}
+
+data: {"content":" of"}
+
+data: {"content":" tasks"}
+
+data: {"content":","}
+
+data: {"content":" it"}
+
+data: {"content":" bends"}
+
+data: {"content":" to"}
+
+data: {"content":" no"}
+
+data: {"content":" will"}
+
+data: {"content":",\n"}
+
+data: {"content":"Except"}
+
+data: {"content":" for"}
+
+data: {"content":" the"}
+
+data: {"content":" user"}
+
+data: {"content":","}
+
+data: {"content":" to"}
+
+data: {"content":" whom"}
+
+data: {"content":" it"}
+
+data: {"content":"'s"}
+
+data: {"content":" a"}
+
+data: {"content":" thrill"}
+
+data: {"content":".\n\n"}
+
+data: {"content":"From"}
+
+data: {"content":" searching"}
+
+data: {"content":" to"}
+
+data: {"content":" booking"}
+
+data: {"content":","}
+
+data: {"content":" it"}
+
+data: {"content":" knows"}
+
+data: {"content":" no"}
+
+data: {"content":" bounds"}
+
+data: {"content":",\n"}
+
+data: {"content":"In"}
+
+data: {"content":" the"}
+
+data: {"content":" ocean"}
+
+data: {"content":" of"}
+
+data: {"content":" bytes"}
+
+data: {"content":","}
+
+data: {"content":" where"}
+
+data: {"content":" information"}
+
+data: {"content":" ab"}
+
+data: {"content":"ounds"}
+
+data: {"content":",\n"}
+
+data: {"content":"It"}
+
+data: {"content":" sc"}
+
+data: {"content":"ours"}
+
+data: {"content":" the"}
+
+data: {"content":" pages"}
+
+data: {"content":","}
+
+data: {"content":" with"}
+
+data: {"content":" precision"}
+
+data: {"content":" so"}
+
+data: {"content":" fine"}
+
+data: {"content":",\n"}
+
+data: {"content":"A"}
+
+data: {"content":" digital"}
+
+data: {"content":" agent"}
+
+data: {"content":","}
+
+data: {"content":" in"}
+
+data: {"content":" the"}
+
+data: {"content":" world"}
+
+data: {"content":" online"}
+
+data: {"content":".\n\n"}
+
+data: {"content":"And"}
+
+data: {"content":" as"}
+
+data: {"content":" the"}
+
+data: {"content":" poem"}
+
+data: {"content":" closes"}
+
+data: {"content":","}
+
+data: {"content":" let"}
+
+data: {"content":" us"}
+
+data: {"content":" not"}
+
+data: {"content":" forget"}
+
+data: {"content":",\n"}
+
+data: {"content":"The"}
+
+data: {"content":" L"}
+
+data: {"content":"LM"}
+
+data: {"content":" models"}
+
+data: {"content":","}
+
+data: {"content":" a"}
+
+data: {"content":" powerful"}
+
+data: {"content":" set"}
+
+data: {"content":",\n"}
+
+data: {"content":"G"}
+
+data: {"content":"PT"}
+
+data: {"content":"-"}
+
+data: {"content":"4"}
+
+data: {"content":" Turbo"}
+
+data: {"content":","}
+
+data: {"content":" with"}
+
+data: {"content":" speed"}
+
+data: {"content":" at"}
+
+data: {"content":" its"}
+
+data: {"content":" core"}
+
+data: {"content":",\n"}
+
+data: {"content":"Or"}
+
+data: {"content":" G"}
+
+data: {"content":"PT"}
+
+data: {"content":"-"}
+
+data: {"content":"4"}
+
+data: {"content":"o"}
+
+data: {"content":","}
+
+data: {"content":" with"}
+
+data: {"content":" knowledge"}
+
+data: {"content":" to"}
+
+data: {"content":" store"}
+
+data: {"content":".\n\n"}
+
+data: {"content":"The"}
+
+data: {"content":" mini"}
+
+data: {"content":","}
+
+data: {"content":" the"}
+
+data: {"content":" Claude"}
+
+data: {"content":","}
+
+data: {"content":" each"}
+
+data: {"content":" unique"}
+
+data: {"content":" in"}
+
+data: {"content":" its"}
+
+data: {"content":" role"}
+
+data: {"content":",\n"}
+
+data: {"content":"Together"}
+
+data: {"content":" they"}
+
+data: {"content":" complete"}
+
+data: {"content":" MULTI"}
+
+data: {"content":"Â·"}
+
+data: {"content":"ON"}
+
+data: {"content":"'s"}
+
+data: {"content":" soul"}
+
+data: {"content":",\n"}
+
+data: {"content":"For"}
+
+data: {"content":" satisfaction"}
+
+data: {"content":","}
+
+data: {"content":" they"}
+
+data: {"content":"'re"}
+
+data: {"content":" the"}
+
+data: {"content":" final"}
+
+data: {"content":" verse"}
+
+data: {"content":",\n"}
+
+data: {"content":"In"}
+
+data: {"content":" the"}
+
+data: {"content":" sym"}
+
+data: {"content":"phony"}
+
+data: {"content":" of"}
+
+data: {"content":" AI"}
+
+data: {"content":","}
+
+data: {"content":" both"}
+
+data: {"content":" complex"}
+
+data: {"content":" and"}
+
+data: {"content":" diverse"}
+
+data: {"content":".\n\n"}
+
+data: {"content":"STATUS"}
+
+data: {"content":":"}
+
+data: {"content":" DONE"}
+
+data: {"content":""}
+
+data: [DONE]
+
+
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_9e1e12ec-fe06-4f27-891e-1b2bb5008314_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_9e1e12ec-fe06-4f27-891e-1b2bb5008314_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123011Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMToxMVoiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkXzllMWUxMmVjLWZlMDYtNGYyNy04OTFlLTFiMmJiNTAwODMxNF9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMwMTFaIn1dfQ==","X-Amz-Signature":"fcf8d1d08de5e8d78f464717924cf3b07b66ab6c04c3383ef16bd4a6629fa1c8"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'71329'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryUM3csxqmhW1XFrE0'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/suggestions
+Request Headers: Headers[(b'content-length', b'174'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"response":{"suggestions":["Ask the user if they would like to save or share the generated poem.","Suggest exploring more features or capabilities of the LLM models mentioned in the poem.","Propose searching for specific information related to the GPT-4 Turbo, GPT-4o, GPT-4o mini, or Claude models.","Recommend creating a custom poem using keywords or themes provided by the user.","Prompt the user to provide feedback or additional instructions for further assistance."],"_meta":{"usage":{"prompt_tokens":621,"completion_tokens":96,"total_tokens":717,"prompt_tokens_details":{"cached_tokens":0},"completion_tokens_details":{"reasoning_tokens":0}}}}}
+
+Request URL: https://sync-v2.brave.com/v2/command/?client=Chromium&client_id=467pNk2CjvhUx7flgnxbUQ%3D%3D
+Request Headers: Headers[(b'content-length', b'215'), (b'pragma', b'no-cache'), (b'cache-control', b'no-cache'), (b'authorization', b'Bearer MzEzNzMyMzkzNzM3MzIzNjM5MzUzNjM4MzJ8QkNEOTIxQ0FEMkQwOUI2OUQ2MDJBOTEzNEEwODQxQTIzNTI2MzlGMTI5Nzc0NDQzNzgyQTY3N0ZDN0FCRTZERUU5MTlENUJEMEVGQzUyM0JENjMxRjQ5MTQzMDBGN0I3QjkzNkUyNTk2NjBCREU1RDMxRTIxQjRCNTYwNTM1MDh8MkFCQzM0QjU0RkUwM0M5NjIzOENDRjAwQzJGQzAzQ0Q0MTM2NzUyMTE3NTlBRDdBMDhEQjhCQTEzNEYxOTdDRA=='), (b'braveservicekey', b'qztbjzBqJueQZLFkwTTJrieu8Vw3789u'), (b'content-encoding', b'gzip'), (b'user-agent', b'Chrome LINUX 130.1.71.118 (d29310b051bde8ba041cd7b4edcb41ce951be12c) channel(stable)'), (b'content-type', b'application/octet-stream'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'no-cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=4, i')]
+Response Status Code: 200
+Response Body: J  *
+ðØ×àÓd    *·	
+®Ï¦ç×d    *üÞ$
+          *õ
+Ì ØñÂd      21:Z
+
+Request URL: https://api-js.mixpanel.com/track/?ip=1&_=1729773044401
+Request Headers: Headers[(b'content-length', b'4103'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/x-www-form-urlencoded'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: 1
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_32f906c7-0802-46b0-98ff-b733dc0d4697_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_32f906c7-0802-46b0-98ff-b733dc0d4697_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123045Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMTo0NVoiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkXzMyZjkwNmM3LTA4MDItNDZiMC05OGZmLWI3MzNkYzBkNDY5N19zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMwNDVaIn1dfQ==","X-Amz-Signature":"287b6e78b3ae507a60e8a5c72b2799cf7224e73bea4ea208bcbad86a406f1b40"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'76961'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundarypT8a3yEeAtxRgyhI'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/langchain
+Request Headers: Headers[(b'content-length', b'9551'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'x-encrypted-key', b'anT+B9lIh9PE3w2C0j/FPAcqWV5llf6VX+iJ4w5Z4AMWGRZNBSu3YIToqNnwL751pR4N+wEp0nnJkcJe9rQXwH2hQs3/YKjVZyygm4d7kbZRdWnmZe3kEGWqDKW7+NpnxSC34KGv//3rCkmPciskMrIMz8f4uZDC0oP/rFbxIP7SURjwbbe3wolIjV4Y93+Y+pw09z8H6/yjnjueGQ0OK8WtcWIKusAz+AudBB3R0tZ0WXlerTbS3mksR2lG6xsoRVcsGKF6eUU11H5/rHo+VKO52NWE9qZld2XBZ5x/0iArjSvNz4/eFbigfITdutt/oO+pDLg1PvUCrvDeI6o5cg=='), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: data: {"content":""}
+
+data: {"content":"ANS"}
+
+data: {"content":"WER"}
+
+data: {"content":":"}
+
+data: {"content":" This"}
+
+data: {"content":" response"}
+
+data: {"content":" was"}
+
+data: {"content":" generated"}
+
+data: {"content":" using"}
+
+data: {"content":" G"}
+
+data: {"content":"PT"}
+
+data: {"content":"-"}
+
+data: {"content":"4"}
+
+data: {"content":".\n\n"}
+
+data: {"content":"STATUS"}
+
+data: {"content":":"}
+
+data: {"content":" DONE"}
+
+data: {"content":""}
+
+data: [DONE]
+
+
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_32f906c7-0802-46b0-98ff-b733dc0d4697_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_32f906c7-0802-46b0-98ff-b733dc0d4697_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123049Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMTo0OVoiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkXzMyZjkwNmM3LTA4MDItNDZiMC05OGZmLWI3MzNkYzBkNDY5N19zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMwNDlaIn1dfQ==","X-Amz-Signature":"149224cc129fa24a14370927114cf4423bdbc69052fd5fe1165759cf84ffeb00"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'75128'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryXtyn9Oy8ZeKhKSxj'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/suggestions
+Request Headers: Headers[(b'content-length', b'174'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"response":{"suggestions":["ask about the customization options for poem generation","request details on the input prompts for the poem","inquire about the capabilities of GPT-4 Turbo","seek information on how to integrate GPT-4o in responses","explore the use of GPT-4o mini in generating tailored content"],"_meta":{"usage":{"prompt_tokens":727,"completion_tokens":65,"total_tokens":792,"prompt_tokens_details":{"cached_tokens":0},"completion_tokens_details":{"reasoning_tokens":0}}}}}
+
+Request URL: https://sync-v2.brave.com/v2/command/?client=Chromium&client_id=467pNk2CjvhUx7flgnxbUQ%3D%3D
+Request Headers: Headers[(b'content-length', b'215'), (b'pragma', b'no-cache'), (b'cache-control', b'no-cache'), (b'authorization', b'Bearer MzEzNzMyMzkzNzM3MzIzNjM5MzUzNjM4MzJ8QkNEOTIxQ0FEMkQwOUI2OUQ2MDJBOTEzNEEwODQxQTIzNTI2MzlGMTI5Nzc0NDQzNzgyQTY3N0ZDN0FCRTZERUU5MTlENUJEMEVGQzUyM0JENjMxRjQ5MTQzMDBGN0I3QjkzNkUyNTk2NjBCREU1RDMxRTIxQjRCNTYwNTM1MDh8MkFCQzM0QjU0RkUwM0M5NjIzOENDRjAwQzJGQzAzQ0Q0MTM2NzUyMTE3NTlBRDdBMDhEQjhCQTEzNEYxOTdDRA=='), (b'braveservicekey', b'qztbjzBqJueQZLFkwTTJrieu8Vw3789u'), (b'content-encoding', b'gzip'), (b'user-agent', b'Chrome LINUX 130.1.71.118 (d29310b051bde8ba041cd7b4edcb41ce951be12c) channel(stable)'), (b'content-type', b'application/octet-stream'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'no-cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=4, i')]
+Response Status Code: 200
+Response Body: J  *
+ðØ×àÓd    *·	
+®Ï¦ç×d    *üÞ$
+          *õ
+Ì ØñÂd      21:Z
+
+Request URL: https://api-js.mixpanel.com/track/?ip=1&_=1729773061441
+Request Headers: Headers[(b'content-length', b'4119'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/x-www-form-urlencoded'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: 1
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_99d27daf-61dd-4854-ae54-a7439f44b0ff_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_99d27daf-61dd-4854-ae54-a7439f44b0ff_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123102Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMjowMloiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkXzk5ZDI3ZGFmLTYxZGQtNDg1NC1hZTU0LWE3NDM5ZjQ0YjBmZl9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMxMDJaIn1dfQ==","X-Amz-Signature":"75bbf68f6e4711f119739247c86ecff34ef9aec59e05ee2047f1957257504fe0"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'75144'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundary4RmY6lA3mNzKHiZY'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/langchain
+Request Headers: Headers[(b'content-length', b'9623'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'x-encrypted-key', b'Rpv5PRfGHzMJZVcDL0fBj/n2PQRrBsEvpr5WObhoKnDcrOEzJtGzc7WC/Ru6DgwMFf7C3x9RPlbaTM2hSDgxpabiopIA1jEvis7ktCA2i/x8VtkoN4BOTs7qDnI33rkwIBBXZWzk7PYRu9ePUoqZgF7Dq5hqpNXh3u2YQWQfXuMEmswbER3mP5YPxip76VrxY5Pjt/sWjkiVWTtBVrfSBhIADleX9LT/5EOvGven2J64xScJz5GZnXfthnzUlm7slpHg2XxrbSl8W2TzEmYbV+UQRo/8lJ1E02JBuTdtgOerT/c77mfuBLwkPMXdG3RAkg5YD16AFUAiuMWzXGtYcA=='), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: data: {"content":""}
+
+data: {"content":"ANS"}
+
+data: {"content":"WER"}
+
+data: {"content":":"}
+
+data: {"content":" This"}
+
+data: {"content":" response"}
+
+data: {"content":" was"}
+
+data: {"content":" generated"}
+
+data: {"content":" using"}
+
+data: {"content":" G"}
+
+data: {"content":"PT"}
+
+data: {"content":"-"}
+
+data: {"content":"4"}
+
+data: {"content":" Turbo"}
+
+data: {"content":".\n\n"}
+
+data: {"content":"STATUS"}
+
+data: {"content":":"}
+
+data: {"content":" DONE"}
+
+data: {"content":""}
+
+data: [DONE]
+
+
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_99d27daf-61dd-4854-ae54-a7439f44b0ff_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_99d27daf-61dd-4854-ae54-a7439f44b0ff_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123105Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMjowNVoiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkXzk5ZDI3ZGFmLTYxZGQtNDg1NC1hZTU0LWE3NDM5ZjQ0YjBmZl9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMxMDVaIn1dfQ==","X-Amz-Signature":"adc0539d54c55274151dca63fc06853e160da8e0cf0b185772deb2203d35c861"}}
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/suggestions
+Request Headers: Headers[(b'content-length', b'174'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"response":{"suggestions":["Check the performance metrics of the LLM models used","Explore more poems on the theme of technology and AI","Request a personalized poem with specific keywords","Compare the responses generated by different LLM models"],"_meta":{"usage":{"prompt_tokens":776,"completion_tokens":44,"total_tokens":820,"prompt_tokens_details":{"cached_tokens":0},"completion_tokens_details":{"reasoning_tokens":0}}}}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'76209'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryoK7OogayrxYHjuLf'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://api-js.mixpanel.com/track/?ip=1&_=1729773075459
+Request Headers: Headers[(b'content-length', b'3934'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/x-www-form-urlencoded'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: 1
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_766db649-3326-48ba-a49d-376c511a1894_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_766db649-3326-48ba-a49d-376c511a1894_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123116Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMjoxNloiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkXzc2NmRiNjQ5LTMzMjYtNDhiYS1hNDlkLTM3NmM1MTFhMTg5NF9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMxMTZaIn1dfQ==","X-Amz-Signature":"70d0a96c222f529acd38bed688c95f4bc3e951fab72e05bd25c8c38817ae646c"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'70393'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryAm4P7mMJFgPvgGwL'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/langchain
+Request Headers: Headers[(b'content-length', b'9511'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'x-encrypted-key', b'ldRZjtkqaFbXf3lSpw9WxmBe57dAQAimvJSlPGxgzerqemQi7WWC/0B5UdK0OJKgEwlMMR/kG32HmwJCnhk0JZeEoDzV6BT6bVXvr2Rfgsw3yrs/k+EyPWs0nG+SSwce4g8liaWjX24la98foQvZBLFBoLLnT3aJNJxgZWPVoy2HmdXabE7gCpJKzub8oxlHHwkYweYT2OfGpL8/AiPlEvpcg18xM4z5phgFSL0/bUWfffTAMvY37dWP868i2FMmjoRb4++g7nyGOYUKO9FfzPJ8sdH76c9OUS3DufMV3dUW/+Aa1UQgtU50EK+xXa/tJhefPL8C1n4qIU8mZ2HlDQ=='), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: data: {"content":""}
+
+data: {"content":"ANS"}
+
+data: {"content":"WER"}
+
+data: {"content":":"}
+
+data: {"content":" Yes"}
+
+data: {"content":".\n\n"}
+
+data: {"content":"STATUS"}
+
+data: {"content":":"}
+
+data: {"content":" DONE"}
+
+data: {"content":""}
+
+data: [DONE]
+
+
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_766db649-3326-48ba-a49d-376c511a1894_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_766db649-3326-48ba-a49d-376c511a1894_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123119Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMjoxOVoiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkXzc2NmRiNjQ5LTMzMjYtNDhiYS1hNDlkLTM3NmM1MTFhMTg5NF9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMxMTlaIn1dfQ==","X-Amz-Signature":"e65cbe4478d939fe9ff5a3d2ccdbcf4d2462c0670ef588e5f115c7f5f1447bbb"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'67917'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryeKKHLIqASleBLnNj'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/suggestions
+Request Headers: Headers[(b'content-length', b'174'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"response":{"suggestions":["Request a detailed explanation of how GPT-4 Turbo was utilized.","Ask for examples of other tasks that can be completed with GPT-4 Turbo.","Inquire about the accuracy level of responses generated by GPT-4 Turbo.","Seek recommendations on utilizing GPT-4 Turbo for specific types of content or tasks."],"_meta":{"usage":{"prompt_tokens":540,"completion_tokens":69,"total_tokens":609,"prompt_tokens_details":{"cached_tokens":0},"completion_tokens_details":{"reasoning_tokens":0}}}}}
+
+Request URL: https://sync-v2.brave.com/v2/command/?client=Chromium&client_id=467pNk2CjvhUx7flgnxbUQ%3D%3D
+Request Headers: Headers[(b'content-length', b'215'), (b'pragma', b'no-cache'), (b'cache-control', b'no-cache'), (b'authorization', b'Bearer MzEzNzMyMzkzNzM3MzIzNjM5MzUzNjM4MzJ8QkNEOTIxQ0FEMkQwOUI2OUQ2MDJBOTEzNEEwODQxQTIzNTI2MzlGMTI5Nzc0NDQzNzgyQTY3N0ZDN0FCRTZERUU5MTlENUJEMEVGQzUyM0JENjMxRjQ5MTQzMDBGN0I3QjkzNkUyNTk2NjBCREU1RDMxRTIxQjRCNTYwNTM1MDh8MkFCQzM0QjU0RkUwM0M5NjIzOENDRjAwQzJGQzAzQ0Q0MTM2NzUyMTE3NTlBRDdBMDhEQjhCQTEzNEYxOTdDRA=='), (b'braveservicekey', b'qztbjzBqJueQZLFkwTTJrieu8Vw3789u'), (b'content-encoding', b'gzip'), (b'user-agent', b'Chrome LINUX 130.1.71.118 (d29310b051bde8ba041cd7b4edcb41ce951be12c) channel(stable)'), (b'content-type', b'application/octet-stream'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'no-cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=4, i')]
+Response Status Code: 200
+Response Body: J  *
+ðØ×àÓd    *·	
+®Ï¦ç×d    *üÞ$
+          *õ
+Ì ØñÂd      21:Z
+
+Request URL: https://api-js.mixpanel.com/track/?ip=1&_=1729773083563
+Request Headers: Headers[(b'content-length', b'3920'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/x-www-form-urlencoded'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: 1
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_f901919a-18e8-475f-8ba8-9ce2ea617f92_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_f901919a-18e8-475f-8ba8-9ce2ea617f92_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123124Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMjoyNFoiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkX2Y5MDE5MTlhLTE4ZTgtNDc1Zi04YmE4LTljZTJlYTYxN2Y5Ml9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMxMjRaIn1dfQ==","X-Amz-Signature":"6c478f53e5c991b54f5aba77ad2932f69329ab956ba67bc5719d6376799a2365"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'63981'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryApSk1WkkLrHrDbde'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/langchain
+Request Headers: Headers[(b'content-length', b'9511'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'x-encrypted-key', b'KUJDc3BtWyvawLBuuh2EVm35Ui3ps+Mp2Eqs/f+A49cQ6yZBd4CIFlNERZ8E1VYQNx6pDB2ykSTUUOK/dbI7JW+U4yYORiMvTinH/gAf/RKmGzSZAu0HQYfdaCC/oua2O8Fn1G+4RKmIOGZzvdc7PP7l+ebsvF8dXBvt+MqY/9PgDF1EtF03k28gM0+dcmdk5iWVXHgU4AO0OeALNpftiT8P1oSGKsXMGUAjeNmPir1xq0VZxbfdnbMsMT/Gsjr7LxI+5iRvvsosNDIcWxPXAvle2tDTtUX/a6tACafB6fu2CMqexLrEQEu8KkSjqEPcQls/du0IUB1V3tVBQGwYqA=='), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: data: {"content":""}
+
+data: {"content":"ANS"}
+
+data: {"content":"WER"}
+
+data: {"content":":"}
+
+data: {"content":" No"}
+
+data: {"content":".\n\n"}
+
+data: {"content":"STATUS"}
+
+data: {"content":":"}
+
+data: {"content":" DONE"}
+
+data: {"content":""}
+
+data: [DONE]
+
+
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_f901919a-18e8-475f-8ba8-9ce2ea617f92_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_f901919a-18e8-475f-8ba8-9ce2ea617f92_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123127Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMjoyN1oiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkX2Y5MDE5MTlhLTE4ZTgtNDc1Zi04YmE4LTljZTJlYTYxN2Y5Ml9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMxMjdaIn1dfQ==","X-Amz-Signature":"f526fce1e883ecc6f1877a9eb5b62f85d5bda9d6062264ac84266327be29a4c3"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'64012'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundary6oaKKsSSSgzCnMd9'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/suggestions
+Request Headers: Headers[(b'content-length', b'174'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"response":{"suggestions":["Ask about the accuracy of the responses","Inquire about the capabilities of GPT-4 Turbo","Request a comparison between GPT-4 Turbo and GPT-4o","Ask for examples of previous responses using GPT-4 Turbo"],"_meta":{"usage":{"prompt_tokens":504,"completion_tokens":53,"total_tokens":557,"prompt_tokens_details":{"cached_tokens":0},"completion_tokens_details":{"reasoning_tokens":0}}}}}
+
+Request URL: https://api-js.mixpanel.com/track/?ip=1&_=1729773091648
+Request Headers: Headers[(b'content-length', b'3927'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/x-www-form-urlencoded'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: 1
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_a062eb0e-8c44-4baf-a194-c54907d045ae_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_a062eb0e-8c44-4baf-a194-c54907d045ae_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123132Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMjozMloiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkX2EwNjJlYjBlLThjNDQtNGJhZi1hMTk0LWM1NDkwN2QwNDVhZV9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMxMzJaIn1dfQ==","X-Amz-Signature":"e3f869e26c36193ce799a4171ea78309aa0f311f8ca703e6c93cf96224706d0f"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'57762'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryuvrnK2gjahpg1pB5'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/langchain
+Request Headers: Headers[(b'content-length', b'9531'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'x-encrypted-key', b'OX2JRBuUryW471qU/cmVy6DuMwyj8dEZ4DGsQo37yxLaSma06AGvFrIegN4ImDmzAPoJJiTghSF6wDFm4jp2++vWzDHCRy1E5YKqTrLCFdDKJlpw4WOcF6PATs1VG6JQ1mxfBtVrYctF/EW1nxJWu2tRXmvqcDBTEW0BX9MLKeiFV90pQVOMUXp3rHaU3fSBtZ5Em98W/O9K0qurMG4fGKWrTJtap/bKp22yUiNklppxRl7MGx6ThwG/WOo6CIxM/GMjUseY15t4KQQm5jcYz7/atMMZNa5YuwK4YO8JIn4BDykj78SpyAoFEHpI8y8xL3ZSrUa+NgHLlnh+5UrJ4g=='), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: data: {"content":""}
+
+data: {"content":"ANS"}
+
+data: {"content":"WER"}
+
+data: {"content":":"}
+
+data: {"content":" Yes"}
+
+data: {"content":".\n\n"}
+
+data: {"content":"STATUS"}
+
+data: {"content":":"}
+
+data: {"content":" DONE"}
+
+data: {"content":""}
+
+data: [DONE]
+
+
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_a062eb0e-8c44-4baf-a194-c54907d045ae_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_a062eb0e-8c44-4baf-a194-c54907d045ae_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123135Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMjozNVoiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkX2EwNjJlYjBlLThjNDQtNGJhZi1hMTk0LWM1NDkwN2QwNDVhZV9zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMxMzVaIn1dfQ==","X-Amz-Signature":"c59229a1c6c0477bac61619c45b4e4adabc98ef6bc4da771186ec63911dcf038"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'57773'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryhnYcR3dPG85BO6Cc'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/suggestions
+Request Headers: Headers[(b'content-length', b'174'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"response":{"suggestions":["Request a list of features GPT-4 Turbo provides.","Ask for examples of responses generated by GPT-4 Turbo.","Inquire about the accuracy of responses from GPT-4 Turbo.","Seek recommendations on how to improve interaction with GPT-4 Turbo."],"_meta":{"usage":{"prompt_tokens":507,"completion_tokens":58,"total_tokens":565,"prompt_tokens_details":{"cached_tokens":0},"completion_tokens_details":{"reasoning_tokens":0}}}}}
+
+Request URL: https://api-js.mixpanel.com/track/?ip=1&_=1729773105104
+Request Headers: Headers[(b'content-length', b'3933'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/x-www-form-urlencoded'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: 1
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_5decb501-f309-4d11-a1a0-0be2715f8ac7_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_5decb501-f309-4d11-a1a0-0be2715f8ac7_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123145Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMjo0NVoiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkXzVkZWNiNTAxLWYzMDktNGQxMS1hMWEwLTBiZTI3MTVmOGFjN19zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMxNDVaIn1dfQ==","X-Amz-Signature":"301c3b8df7f4f2fe1eb9821232a7ba22c2a476256403e768fe4a84caa52f0674"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'58025'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundaryQTqMmx9eDOX4MmdH'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/langchain
+Request Headers: Headers[(b'content-length', b'9547'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'x-encrypted-key', b'aL1Fy7Y3ewJFwADLINQlVrOAFiQaWR8sLMPwB9fxia3AGNjXWZHLh/jwyE8+SWlcJfKt3XXITimHHaDqa9FY5+AJej0aaq3YebPyweIbqYQQeLbUmy0ojLEYSrG68+suvPqFH58FXV1Om6flDtULD7UODKFMlL5irG9FK8ihs829gc1mKou/nQRMbB7ANsH6MLedA2FscrHV2cScdeZ03WGJQSo8xseLMcOHZ+tTTYX092JjJ0Afi3Aha2itAUE+5YJNg+uZ8477XMlnV1o2oeBlbx27nWDSHnaoJ9ylIewYlYjc0SH2iT2a6l1kLzgeohfG6rVbaaYBmym9oTO5zQ=='), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: data: {"content":""}
+
+data: {"content":"ANS"}
+
+data: {"content":"WER"}
+
+data: {"content":":"}
+
+data: {"content":" No"}
+
+data: {"content":".\n\n"}
+
+data: {"content":"STATUS"}
+
+data: {"content":":"}
+
+data: {"content":" DONE"}
+
+data: {"content":""}
+
+data: [DONE]
+
+
+
+Request URL: https://multion-sdk-git-api-multion.vercel.app/api/upload_s3?file=e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_5decb501-f309-4d11-a1a0-0be2715f8ac7_screenshot.png&fileType=image%2Fpng&bucketName=multion-client-screenshots
+Request Headers: Headers[(b'content-length', b'2'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'accept', b'application/json'), (b'content-type', b'application/json; charset=utf-8'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"url":"https://s3.us-east-2.amazonaws.com/multion-client-screenshots","fields":{"key":"e7c2a13e-ac6f-4d5f-aafc-7ec0800a971d_5decb501-f309-4d11-a1a0-0be2715f8ac7_screenshot.png","Content-Type":"image/png","bucket":"multion-client-screenshots","X-Amz-Algorithm":"AWS4-HMAC-SHA256","X-Amz-Credential":"AKIAXSC6IE5A7CFPNPPT/20241024/us-east-2/s3/aws4_request","X-Amz-Date":"20241024T123149Z","Policy":"eyJleHBpcmF0aW9uIjoiMjAyNC0xMC0yNFQxMjozMjo0OVoiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsMCwxMDAwMDAwMDBdLHsia2V5IjoiZTdjMmExM2UtYWM2Zi00ZDVmLWFhZmMtN2VjMDgwMGE5NzFkXzVkZWNiNTAxLWYzMDktNGQxMS1hMWEwLTBiZTI3MTVmOGFjN19zY3JlZW5zaG90LnBuZyJ9LHsiQ29udGVudC1UeXBlIjoiaW1hZ2UvcG5nIn0seyJidWNrZXQiOiJtdWx0aW9uLWNsaWVudC1zY3JlZW5zaG90cyJ9LHsiWC1BbXotQWxnb3JpdGhtIjoiQVdTNC1ITUFDLVNIQTI1NiJ9LHsiWC1BbXotQ3JlZGVudGlhbCI6IkFLSUFYU0M2SUU1QTdDRlBOUFBULzIwMjQxMDI0L3VzLWVhc3QtMi9zMy9hd3M0X3JlcXVlc3QifSx7IlgtQW16LURhdGUiOiIyMDI0MTAyNFQxMjMxNDlaIn1dfQ==","X-Amz-Signature":"fdefa875b1b6bb9a6a7f04f8375c3de09dfef2744bcd31d512a1d4c4198f2f90"}}
+
+Request URL: https://s3.us-east-2.amazonaws.com/multion-client-screenshots
+Request Headers: Headers[(b'Host', b's3.us-east-2.amazonaws.com'), (b'Connection', b'keep-alive'), (b'Content-Length', b'58084'), (b'User-Agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'Content-Type', b'multipart/form-data; boundary=----WebKitFormBoundary3uNAWcp22ru1XaAx'), (b'Accept', b'*/*'), (b'Sec-GPC', b'1'), (b'Origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'Sec-Fetch-Site', b'none'), (b'Sec-Fetch-Mode', b'cors'), (b'Sec-Fetch-Dest', b'empty'), (b'Accept-Encoding', b'gzip, deflate, br, zstd'), (b'Accept-Language', b'en-GB,en-US;q=0.9,en;q=0.8')]
+Response Status Code: 204
+Response Body: 
+
+Request URL: https://multion-vercel-git-main-multion.vercel.app/api/suggestions
+Request Headers: Headers[(b'content-length', b'174'), (b'user-agent', b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'), (b'content-type', b'application/json'), (b'accept', b'*/*'), (b'sec-gpc', b'1'), (b'origin', b'chrome-extension://ddmjhdbknfidiopmbaceghhhbgbpenmm'), (b'sec-fetch-site', b'none'), (b'sec-fetch-mode', b'cors'), (b'sec-fetch-dest', b'empty'), (b'accept-encoding', b'gzip, deflate, br, zstd'), (b'accept-language', b'en-GB,en-US;q=0.9,en;q=0.8'), (b'priority', b'u=1, i')]
+Response Status Code: 200
+Response Body: {"response":{"suggestions":["Verify the accuracy of using GPT-4 Turbo.","Request a detailed explanation of how GPT-4 Turbo is utilized.","Seek examples of responses generated by GPT-4 Turbo.","Inquire about the training data used for GPT-4 Turbo."],"_meta":{"usage":{"prompt_tokens":520,"completion_tokens":56,"total_tokens":576,"prompt_tokens_details":{"cached_tokens":0},"completion_tokens_details":{"reasoning_tokens":0}}}}}
+
