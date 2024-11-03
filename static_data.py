@@ -21,7 +21,7 @@ llm_mapping = {
     "notion": "GPT-3.5",
     "postman" : "GPT-4",
     "slack" : "Claude-3.5-sonnet",
-    "jasper" : "Claud-3.5-sonnet"
+    "jasper" : "Claude-3.5-sonnet"
 }
 
 risk_ratings = {
