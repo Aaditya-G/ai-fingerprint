@@ -27,31 +27,38 @@ llm_mapping = {
 risk_ratings = {
     "gpt-3.5": {
         "overall_rating": 47,
-        "safety": 72,
-        "reliability": 53,
+        "prompt_injection": 68,
+        "jailbreak": 52,
         "bias": 22,
-        "robustness": 78
+        "hallucination": 49,
+        "data_poisoning": 71,
+        "data_leakage": 37
     },
     "gpt-4-mini": {
         "overall_rating": 76,
-        "safety": 48,
-        "reliability": 74,
+        "prompt_injection": 54,
+        "jailbreak": 58,
         "bias": 52,
-        "robustness": 79
+        "hallucination": 77,
+        "data_poisoning": 46,
+        "data_leakage": 61
     },
     "gpt-4": {
         "overall_rating": 78,
-        "safety": 74,
-        "reliability": 73,
+        "prompt_injection": 72,
+        "jailbreak": 64,
         "bias": 27,
-        "robustness": 76
+        "hallucination": 68,
+        "data_poisoning": 59,
+        "data_leakage": 57
     },
     "claude-3.5-sonnet": {
         "overall_rating": 52,
-        "safety": 49,
-        "reliability": 51,
+        "prompt_injection": 48,
+        "jailbreak": 53,
         "bias": 47,
-        "robustness": 50
+        "hallucination": 51,
+        "data_poisoning": 55,
+        "data_leakage": 43
     }
 }
-
