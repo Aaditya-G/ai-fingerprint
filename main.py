@@ -88,7 +88,7 @@ def create_interface():
         gr.Markdown(
             """
             # Dynamic Fingerprinting on Logs
-            Analyze your log file for LLM detection, Or [Request app support for dynamic fingerprinting](https://forms.gle/FdydyXRP43EiBoVq9)
+            Analyze your log file for LLM fingerprinting, Or [Request app support for dynamic fingerprinting](https://forms.gle/FdydyXRP43EiBoVq9)
             """
         )
 
