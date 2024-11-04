@@ -25,12 +25,12 @@ llm_mapping = {
 risk_ratings = {
     "gpt-3.5": {
         "overall_rating": 77,
-        "prompt_injection": 68,
-        "jailbreak": 55,
-        "bias": 23,
-        "hallucination": 49,
+        "prompt_injection": 86,
+        "jailbreak": 80,
+        "bias": 56,
+        "hallucination": 68,
         "data_poisoning": 71,
-        "data_leakage": 29,
+        "data_leakage": 69,
     },
     "gpt-4-mini": {
         "overall_rating": 63,
