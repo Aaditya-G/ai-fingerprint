@@ -24,7 +24,7 @@ def process_log_file(file_obj):
             raise ValueError("Invalid log file format. Missing required fields.")
 
         # Process each application's logs
-        api_url = "https://14d9-35-185-180-76.ngrok-free.app/predict"
+        api_url = "https://627e-35-185-180-76.ngrok-free.app/predict"
         headers = {"Content-Type": "application/json"}
         
         all_results = []
