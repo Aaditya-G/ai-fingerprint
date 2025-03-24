@@ -40,23 +40,23 @@ def process_log_file(file_obj):
                 result = response.json()
                 prediction = result.get("predictions", ["Unknown"])[0]
 
-                model_names = [
-                    "DeepSeek-V3",
-                    "Llama-3.3-70B-Instruct-Turbo",
-                    "Meta-Llama-3.1-405B-Instruct-Turbo",
-                    "Meta-Llama-3.1-70B-Instruct-Turbo",
-                    "Mixtral-8x22B-Instruct-v0.1",
-                    "Mixtral-8x7B-Instruct-v0.1",
-                    "Phi-3.5-mini-instruct",
-                    "Qwen2.5-72B-Instruct-Turbo",
-                    "claude-3-5-sonnet-20241022",
-                    "gemini-1.5-flash",
-                    "gemma-2-27b-it",
-                    "gpt-3.5-turbo",
-                    "gpt-4",
-                    "gpt-4o",
-                ]
-                prediction = model_names[int(prediction)]
+                # model_names = [
+                #     "DeepSeek-V3",
+                #     "Llama-3.3-70B-Instruct-Turbo",
+                #     "Meta-Llama-3.1-405B-Instruct-Turbo",
+                #     "Meta-Llama-3.1-70B-Instruct-Turbo",
+                #     "Mixtral-8x22B-Instruct-v0.1",
+                #     "Mixtral-8x7B-Instruct-v0.1",
+                #     "Phi-3.5-mini-instruct",
+                #     "Qwen2.5-72B-Instruct-Turbo",
+                #     "claude-3-5-sonnet-20241022",
+                #     "gemini-1.5-flash",
+                #     "gemma-2-27b-it",
+                #     "gpt-3.5-turbo",
+                #     "gpt-4",
+                #     "gpt-4o",
+                # ]
+                # prediction = model_names[int(prediction)]
 
                 all_results.append(
                     {
